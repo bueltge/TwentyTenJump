@@ -1,0 +1,22 @@
+﻿@charset "UTF-8";
+
+/**
+ * Theme Name:     TwentyTenJump
+ * Theme URI:      http://bueltge.de/?p=1192
+ * Description:    Child theme for the Twenty Ten theme. Realized for a small tutorial to child themes in WordPress.
+ * Author:         Frank Bültge
+ * Author URI:     http://bueltge.de/wordpress-child-themes-verstehen/1192/
+ * Template:       twentyten
+ * Version:        0.1.0
+ */
+
+@import url('../twentyten/style.css');
+
+#access .menu-header, div.menu {
+	overflow: hidden;
+}
+
+#mysecondary {
+	display: block;
+	background: #ddd;
+}
